@@ -3,7 +3,7 @@ import { withRouter } from 'next/router'
 import { Provider } from 'react-redux'
 import App, { Container } from 'next/app'
 import Layout from '../src/components/Layout'
-import createStore from 'store/createStore'
+import createStore from '../src/store/createStore'
 
 class MyApp extends App {
   static async getInitialProps ({ Component, ctx }) {
