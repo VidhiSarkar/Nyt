@@ -1,5 +1,5 @@
 import axios from 'axios';
-import config from 'config';
+import config from '../config';
 
 export const getTopRepos= ()=>{
 	let path = `${config.nytApiEndpoint}/svc/mostpopular/v2/viewed/1.json?api-key=${config.nytApiKey}`;
