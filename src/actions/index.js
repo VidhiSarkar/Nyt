@@ -1,4 +1,4 @@
-import * as actions from 'utils/nyt';
+import * as actions from '../utils/nyt';
 
 export const GET_TOP_REPOS = 'GET_TOP_REPOS';
 export const GET_TOP_REPOS_SUCCESS = 'GET_TOP_REPOS_SUCCESS';
