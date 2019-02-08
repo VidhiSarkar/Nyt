@@ -7,8 +7,8 @@ import Link from 'next/link'
 import Router from 'next/router'
 import Loader from '../src/components/Loader/Loading'
 
-import { getTopRepos, getArticlesBySearch, setArticleDetails } from 'actions';
-import Article from 'components/Article'
+import { getTopRepos, getArticlesBySearch, setArticleDetails } from '../src/actions';
+import Article from '../src/components/Article'
 
 import { 
 	SearchWrapper,
