@@ -2,7 +2,7 @@ import withRedux from 'next-redux-wrapper'
 import { withRouter } from 'next/router'
 import { Provider } from 'react-redux'
 import App, { Container } from 'next/app'
-import Layout from 'components/Layout'
+import Layout from '../src/components/Layout'
 import createStore from 'store/createStore'
 
 class MyApp extends App {
